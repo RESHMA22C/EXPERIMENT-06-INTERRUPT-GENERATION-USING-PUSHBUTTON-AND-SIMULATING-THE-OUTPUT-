@@ -197,6 +197,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	if(GPIO_Pin==GPIO_PIN_0)
 	{
 		HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
+
 	}
 }
 
@@ -315,6 +316,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 
 ~~~
 
